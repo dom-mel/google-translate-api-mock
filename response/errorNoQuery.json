@@ -1,0 +1,22 @@
+{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "required",
+    "message": "Required parameter: q",
+    "locationType": "parameter",
+    "location": "q"
+   },
+   {
+    "domain": "global",
+    "reason": "required",
+    "message": "Required parameter: target",
+    "locationType": "parameter",
+    "location": "target"
+   }
+  ],
+  "code": 400,
+  "message": "Required parameter: q"
+ }
+}

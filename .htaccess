@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteBase  /google-translate-dummy
+
+RewriteRule ^language/translate/v2$ translate.php [L]
+RewriteRule ^language/translate/v2\?(.*)$ translate.php?$1 [QSA,L]
+RewriteRule ^language/translate/v2/languages$ language.php [L]
+RewriteRule ^language/translate/v2/languages(.*)$ language.php$1 [QSA,L]
